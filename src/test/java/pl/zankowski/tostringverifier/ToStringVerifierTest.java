@@ -13,4 +13,12 @@ public class ToStringVerifierTest {
                 .verify();
     }
 
+    @Test
+    public void strictTest() {
+        ToStringVerifier.forClass(Exchange.class)
+                .withGeneratorType(GeneratorType.GUAVA_18_PLUS)
+                .withStrictVerification()
+                .verify();
+    }
+
 }
