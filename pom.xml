@@ -57,7 +57,11 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>27.1-jre</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
         </dependency>
 
         <dependency>
@@ -69,19 +73,12 @@
         <dependency>
             <groupId>com.flextrade.jfixture</groupId>
             <artifactId>jfixture</artifactId>
-            <version>2.7.2</version>
         </dependency>
 
         <dependency>
             <groupId>pl.zankowski</groupId>
             <artifactId>iextrading4j-api</artifactId>
             <version>3.1.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>nl.jqno.equalsverifier</groupId>
-            <artifactId>equalsverifier</artifactId>
-            <version>3.1.8</version>
         </dependency>
 
         <!-- Test libraries -->
@@ -115,6 +112,12 @@
             </dependency>
 
             <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>3.9</version>
+            </dependency>
+
+            <dependency>
                 <groupId>org.immutables</groupId>
                 <artifactId>value</artifactId>
                 <version>2.7.5</version>
@@ -125,13 +128,6 @@
                 <groupId>com.flextrade.jfixture</groupId>
                 <artifactId>jfixture</artifactId>
                 <version>2.7.2</version>
-            </dependency>
-
-            <dependency>
-                <groupId>nl.jqno.equalsverifier</groupId>
-                <artifactId>equalsverifier</artifactId>
-                <version>3.1.8</version>
-                <scope>test</scope>
             </dependency>
 
             <dependency>
