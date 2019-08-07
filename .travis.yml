@@ -6,11 +6,8 @@ addons:
     organization: "wojciechzankowski-github"
 
 jdk:
-  - oraclejdk8
-  - openjdk9
-  - openjdk10
+  - openjdk8
   - openjdk11
-  - openjdk12
 
 script:
   - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar
